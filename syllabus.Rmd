@@ -1,0 +1,142 @@
+---
+title: "Syllabus"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'syllabus.html'))})
+output: 
+  html_document:
+    includes:
+      in_header: "favicon.html" 
+---
+
+***
+
+# Course Objectives
+
+After this course, students should be expected to be able to ...
+
+* identify supervised (regression and classification) and unsupervised (clustering) learning problems.
+* choose effective methods to use in solving various learning problem.
+* understand the fundamental theory behind statistical learning methods.
+* implement the statistical learning methods in practice using a statistical computing environment.
+
+***
+
+# Course Content
+
+Tentative subjects include:
+
+* Unsupervised Learning:
+    * PCA, K-mean and hierarchical clustering
+* Supervised Learning:
+    * Linear models and penalization
+    * Discriminant analysis, Naive Bayes
+    * K nearest neighbor, tree, random forests, kernel methods
+    * Support vector machine, neural networks
+* Other concepts:
+    * Bias-variance trade-off
+    * Variable selection
+    * Cross-validation
+    * Bootstraps
+
+***
+
+# Textbooks 
+
+* Required: __ISL__ - [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)
+by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
+
+* Recommended: __ESL__ - [The Elements of Statistical Learning: Data Mining, Inference, and Prediction](https://web.stanford.edu/~hastie/ElemStatLearn/) by Trevor Hastie, Robert Tibshirani and Jerome Friedman
+
+We will have an `R` tutorial during the first couple of weeks.
+
+***
+
+# Prerequisites 
+
+A course which covers linear regression and uses `R`, such as STAT 425. Good knowledge of probability and linear algebra is also assumed.
+
+***
+
+# Software
+
+`R` and `RStudio` are required software for this course. `R` is a freely available language and environment for statistical computing and graphics. `RStudio` is a free and open-source integrated development environment for `R`. You must have access to a computer where you are able to install the most up-to-date versions of `R` and `RStudio`, as well as install `R` packages.
+
+***
+
+# Homework
+
+There will be ten homework assignments. The best nine will count towards your grade (lowest score dropped). All homework must be organized using `R Markdown`. The compiled PDF (or html) file along with the original source code file (.rmd) should be submitted through Compass2g.
+
+***
+
+# Quizzes
+
+There will be two in-class quizzes. The quiz dates are:
+
+* Quiz 1: Friday, October 19
+* Quiz 2: Friday, December 7
+
+***
+
+# Final Project
+
+Project due dates, assignment details, and group assignments will be announced after the midpoint of the semester.
+
+* Step 1: form your group with a maximum of 3 students (must be finalized by Nov 9th)
+* Step 2: Submit a one-page project proposal during Nov 12 - 23th, and wait for approval in the next few days
+* Step 3: Final report is due Dec 15th 11:59 PM. 
+
+*** 
+
+# Gradings 
+
+```{r echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+require(pander)
+panderOptions('table.split.table', Inf)
+my.data <- "    Type        | Precentage
+                Homework    | 50%
+                Quiz I      | 10%
+                Quiz II     | 10%
+                Group Choice    | 1%
+                Project Proposal | 4%
+                Project Report | 25%"
+df <- read.delim(textConnection(my.data),header=FALSE,sep="|",strip.white=TRUE,stringsAsFactors=FALSE)
+names(df) <- unname(as.list(df[1,])) # put headers on
+df <- df[-1,] # remove first row
+row.names(df)<-NULL
+pander(df, style = 'rmarkdown')
+```
+
+Letter grades 
+
+```{r echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+require(pander)
+panderOptions('table.split.table', Inf)
+my.data <- "A+ | A | A- | B+ | B | B- | C+ | C | C- | D+ | D | D-
+            TBD | 93% | 90% | 87% | 83% | 80% | 77% | 73% | 70% | 67% | 63% | 60%"
+df <- read.delim(textConnection(my.data),header=FALSE,sep="|",strip.white=TRUE,stringsAsFactors=FALSE)
+names(df) <- unname(as.list(df[1,])) # put headers on
+df <- df[-1,] # remove first row
+row.names(df)<-NULL
+pander(df, style = 'rmarkdown')
+```
+
+*** 
+
+# Attendence 
+
+You are expected to attend all lectures and discussions. Failure to do so may not have a direct effect on your course grade, but will likely have a significant indirect effect. Any known or potential extracurricular conflicts should be discussed in person with the instructor during the first week of classes, or as soon as they arise.
+
+*** 
+
+# Academic Integrity
+The official University of Illinois policy related to academic integrity can be found in Article 1, Part 4 of the Student Code. [Section 1-402](http://studentcode.illinois.edu/article1_part4_1-402.html) in particular outlines behavior which is considered an infraction of academic integrity. These sections of the Student Code will be upheld in this course. Any violations will be dealt with in a swift, fair and strict manner. Homework assignments are meant to be learning experiences. You may discuss the exercises with other students, but you must write up the solutions on your own. __In short, do not cheat, it is not worth the risk.__ You are more likely to get caught than you believe. If you think you may be operating in a grey area, you most likely are.
+
+***
+
+# Changes
+
+The instructor reserves the right to make any changes he considers academically advisable. Such changes, if any, will be announced in class. Please note that it is your responsibility to attend the class and keep track of the proceedings.
