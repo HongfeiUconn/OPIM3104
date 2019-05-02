@@ -14,9 +14,9 @@ navbar:
       href: syllabus.html
   right:
     - icon: fa-github fa-lg
-      href: http://github.com/teazrq
+      href: https://github.com/HongfeiUconn/
     - icon: fa-google fa-lg
-      href: https://sites.google.com/site/teazrq/     
+      href: https://www.business.uconn.edu/person/hongfei-li/   
 output:
   html_document:
     theme: cosmo

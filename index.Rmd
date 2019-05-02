@@ -5,7 +5,7 @@ knit: (function(input_file, encoding) {
   rmarkdown::render(input_file,
  encoding=encoding,
  output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
-author: "Brought to you by: [Hongfei Li](https://sites.google.com/site/teazrq/home){target='_blank'}"
+author: "Brought to you by: [Hongfei Li](https://www.business.uconn.edu/person/hongfei-li/){target='_blank'}"
 date: "Last Updated: `r format(Sys.time(), '%B %d, %Y')`"
 fontsize: 12pt
 output: 
