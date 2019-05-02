@@ -1,6 +1,6 @@
-name: "Official Website of Stat 542"
+name: "Official Website of OPIM 3104"
 navbar:
-  title: "STAT 542"
+  title: "OPIM 3104"
   left:
     - text: "Home"
       href: index.html
