@@ -1,0 +1,23 @@
+---
+title: "Weekly Lecture Notes"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'lecture.html'))})
+date: "Last Updated: `r format(Sys.time(), '%B %e, %Y')`"
+fontsize: 12pt
+output: 
+  html_document:
+    includes:
+      in_header: "favicon.html"
+---
+
+Weekly schedule, lecture notes, R code and extra readings. We use [**R**](https://www.r-project.org/){target='_blank'} and [**RStudio**](https://www.rstudio.com/){target='_blank'} for lectures. 
+
+```{r, include = FALSE}
+totalweeks = 17
+alldates <- seq.Date(as.Date("2018-08-27"), length = totalweeks, by='1 weeks')
+```
+
+***

@@ -1,0 +1,23 @@
+name: "Official Website of Stat 542"
+navbar:
+  title: "STAT 542"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Lecture Notes"
+      href: lecture.html
+    - text: "Homework"
+      href: homework.html
+    - text: "Project"
+      href: project.html      
+    - text: "Syllabus"
+      href: syllabus.html
+  right:
+    - icon: fa-github fa-lg
+      href: http://github.com/teazrq
+    - icon: fa-google fa-lg
+      href: https://sites.google.com/site/teazrq/     
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate

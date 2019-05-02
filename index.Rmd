@@ -1,0 +1,45 @@
+---
+title: "OPIM 3104, Spring 2018"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+author: "Brought to you by: [Hongfei Li](https://sites.google.com/site/teazrq/home){target='_blank'}"
+date: "Last Updated: `r format(Sys.time(), '%B %d, %Y')`"
+fontsize: 12pt
+output: 
+  html_document:
+    includes:
+      in_header: "favicon.html"
+---
+
+
+## Welcome!
+
+This the official website of OPIM 3104, Spring 2018. Here is some basic info about our course:
+
+\vspace{1cm}
+
+* Lectures: (__Please go to your registered section!__)
+    * 
+    * 
+
+\vspace{1cm}
+
+* TAs:
+    * 
+    * 
+    
+\vspace{1cm}
+
+* Office hours:
+    * Wed/Thu 11AM - 12PM (116D Illini Hall)
+    * Tue 4-5PM (Runmin, 104 Illini Hall)
+    * Wed 1:45-2:45PM (Austin, 104 Illini Hall)
+
+\vspace{1cm}
+
+### Announcements:
+
+\vspace{1cm}
