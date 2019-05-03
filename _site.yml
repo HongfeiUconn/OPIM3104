@@ -4,14 +4,15 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Syllabus"
+      href: syllabus.html
     - text: "Lecture Notes"
       href: lecture.html
     - text: "Homework"
       href: homework.html
     - text: "Quiz Preparations"
       href: quiz.html
-    - text: "Syllabus"
-      href: syllabus.html
+
   right:
     - icon: fa-github fa-lg
       href: https://github.com/HongfeiUconn/
