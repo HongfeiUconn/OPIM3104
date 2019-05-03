@@ -13,14 +13,25 @@ output:
 
 ***
 
-# Course Objectives
+Instructor: [Hongfei Li](https://www.business.uconn.edu/person/hongfei-li/) 
 
-After this course, students should be expected to be able to ...
+* Email: Hongfei.li@uconn.edu. 
+* Office: BUSN 407 
+* Classroom: LH 101
+* Class meets: Tue/Thu 2:00-3:15 pm 
+* Office Hours: Tue/Thu 12:30-1:30 pm
 
-* identify supervised (regression and classification) and unsupervised (clustering) learning problems.
-* choose effective methods to use in solving various learning problem.
-* understand the fundamental theory behind statistical learning methods.
-* implement the statistical learning methods in practice using a statistical computing environment.
+TA Office hours:
+
+* Aindrila Chakraborty: Aindrila.Chakraborty@uconn.edu Thu 3:30-4:30 pm
+* Yucheng Chen: Yucheng.chen@uconn.edu Tue 3:30-4:30 pm
+
+
+***
+
+# Course Description
+
+Operations Management (OM) designs, operates and improves productive systems, by managing the function that transforms inputs (materials, machines, labor, and capital) into outputs (products and services) of greater value. As a central function area of any business organization, OM has gained increasing recognition as a source of competitive advantage, presenting great challenges as well as tremendous opportunities, for a company to succeed in today’s global business environment with the advent of information technology. In this course, students will learn what functions OM performs, why it is important, and how to make business decisions in the field of OM. We introduce both fundamental concepts and quantitative models of operations management. Topics covered in detail are decision making tools, forecasting techniques, inventory management, aggregate planning, waiting line analysis, and etc. The objective is to help students develop a systematic working knowledge of the concepts and methods related to designing and managing operations.  
 
 ***
 
@@ -28,101 +39,78 @@ After this course, students should be expected to be able to ...
 
 Tentative subjects include:
 
-* Unsupervised Learning:
-    * PCA, K-mean and hierarchical clustering
-* Supervised Learning:
-    * Linear models and penalization
-    * Discriminant analysis, Naive Bayes
-    * K nearest neighbor, tree, random forests, kernel methods
-    * Support vector machine, neural networks
-* Other concepts:
-    * Bias-variance trade-off
-    * Variable selection
-    * Cross-validation
-    * Bootstraps
+* Decision Making Tools:
+    * Decision strategy
+    * Decision table
+    * Decision tree
+    * Review on Excel
+* Forecasting:
+    * One-variable forecasting: moving average, weighted moving average, exponential smoothing
+    * Multiple-variable forecasting: linear regression
+    * Forecasting evaluation: mean absolute deviation, R-squared
+    * Extension: Causal inference, machine learning and deep learning
+* Project Management:
+    * WBS and AON graph
+    * Critical path method (CPM)
+    * Program evaluation and review technique (PERT)
+    * Project crashing
+* Inventory Management:
+    * Economic order quantity (EOQ) model
+    * Production order quantity (POQ) model
+    * Quantity discount models
+* Linear Programming:
+    * Formulation
+    * Graphical solution method
+    * Integer programming
+* Introduction to Monte Carlo Simulation:
+    * Functions in Excel
+    * Simple examples
+    * What-if analysis
+
 
 ***
 
 # Textbooks 
 
-* Required: __ISL__ - [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)
-by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
-
-* Recommended: __ESL__ - [The Elements of Statistical Learning: Data Mining, Inference, and Prediction](https://web.stanford.edu/~hastie/ElemStatLearn/) by Trevor Hastie, Robert Tibshirani and Jerome Friedman
-
-We will have an `R` tutorial during the first couple of weeks.
+* Required: [Operations Management: Sustainability and Supply Chain Management, 12th Edition](https://www.pearson.com/us/higher-education/product/Heizer-Operations-Management-Sustainability-and-Supply-Chain-Management-12th-Edition/9780134130422.html)
+by Jay Heizer, Barry Render, Chuck Munson
 
 ***
 
-# Prerequisites 
+# Computer Requirements 
 
-A course which covers linear regression and uses `R`, such as STAT 425. Good knowledge of probability and linear algebra is also assumed.
+A laptop is required, and you are required to be able to run Microsoft Excel (version 2010 is recommended, or later if desired).  You will need to install the Excel OM Software which you can download after you have successfully logged onto MyOMLab, under download center.  
+For Mac users, we recommend you to install Windows system first and download the software for PC to avoid potential confusion. The library IT department provides free Windows download for Mac users and assists installation.
 
-***
-
-# Software
-
-`R` and `RStudio` are required software for this course. `R` is a freely available language and environment for statistical computing and graphics. `RStudio` is a free and open-source integrated development environment for `R`. You must have access to a computer where you are able to install the most up-to-date versions of `R` and `RStudio`, as well as install `R` packages.
 
 ***
 
-# Homework
+# Grading
 
-There will be ten homework assignments. The best nine will count towards your grade (lowest score dropped). All homework must be organized using `R Markdown`. The compiled PDF (or html) file along with the original source code file (.rmd) should be submitted through Compass2g.
+There will be two midterms and one final exam. All exams are non-cumulative. (See tentative schedule)  Homework problems will be assigned on HuskyCT and discussed in class but will not be graded. Short answers to some of them will be provided. Solutions to all other problems can be found on your textbook. It is however, strongly recommended that each student complete each homework in preparation for the quizzes, which will be graded. These quizzes will be based directly on recent homework assignments and will usually be announced in advance. The lowest quiz score will be dropped, allowing some leeway for absentees. In the case of an excused absence (with a note from a doctor) a replacement quiz may be given at the discretion of the instructors. 
+Class participation is required and will be evaluated by having in-class assignments that need to be handed at the end of the session. Here is the breakdown of how grades will be evaluated: 
 
-***
-
-# Quizzes
-
-There will be two in-class quizzes. The quiz dates are:
-
-* Quiz 1: Friday, October 19
-* Quiz 2: Friday, December 7
+* First Midterm: 25% 
+* Second Midterm: 25% 
+* Final Examination: 30% 
+* Quizzes: 15% 
+* Class participation: 5% 
 
 ***
 
-# Final Project
+# Students with Disabilities
 
-Project due dates, assignment details, and group assignments will be announced after the midpoint of the semester.
+Please contact us during office hours to discuss academic accommodations that may be needed during the semester due to a documented disability. If you have a disability for which you wish to request academic accommodations and have not contacted the Center for Students with Disabilities (CSD), please do so as soon as possible. The CSD engages in an interactive process with each student and reviews requests for accommodations on an individualized, case-by-case basis. The CSD collaborates with students and their faculty to coordinate approved accommodations and services. The CSD is located in Wilbur Cross, Room 204 and can be reached at (860) 486-2020 or at csd@uconn.edu. Detailed information regarding the process to request accommodations is available on the CSD website at https://www.csd.uconn.edu.  
 
-* Step 1: form your group with a maximum of 3 students (must be finalized by Nov 9th)
-* Step 2: Submit a one-page project proposal during Nov 12 - 23th, and wait for approval in the next few days
-* Step 3: Final report is due Dec 15th 11:59 PM. 
+***
 
-*** 
+# Academic Dishonesty Statement
 
-# Gradings 
+Behavior that appears to be cheating cannot and will not be tolerated and will be punished appropriately (from earning NO CREDIT on an examination to a failing grade in the class.) 
+Behavior that appears to be cheating should be prevented by students and/or reported to the instructors. For every quiz and test there will be at least two different versions, and different versions will be printed on different colored paper, allowing the instructors to visually verify that adjacent students take different versions. This is designed to nullify any benefit of looking at an adjacent student's answers. However, if a student is foolish enough to write down an answer that could only apply to a different version of the quiz/test, that student will automatically receive a failing grade on that quiz/test. 
 
-```{r echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
-require(pander)
-panderOptions('table.split.table', Inf)
-my.data <- "    Type        | Precentage
-                Homework    | 50%
-                Quiz I      | 10%
-                Quiz II     | 10%
-                Group Choice    | 1%
-                Project Proposal | 4%
-                Project Report | 25%"
-df <- read.delim(textConnection(my.data),header=FALSE,sep="|",strip.white=TRUE,stringsAsFactors=FALSE)
-names(df) <- unname(as.list(df[1,])) # put headers on
-df <- df[-1,] # remove first row
-row.names(df)<-NULL
-pander(df, style = 'rmarkdown')
-```
+* [School of Business Academic Honesty Statement](https://users.business.uconn.edu/bday/Honesty.html). 
 
-Letter grades 
-
-```{r echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
-require(pander)
-panderOptions('table.split.table', Inf)
-my.data <- "A+ | A | A- | B+ | B | B- | C+ | C | C- | D+ | D | D-
-            TBD | 93% | 90% | 87% | 83% | 80% | 77% | 73% | 70% | 67% | 63% | 60%"
-df <- read.delim(textConnection(my.data),header=FALSE,sep="|",strip.white=TRUE,stringsAsFactors=FALSE)
-names(df) <- unname(as.list(df[1,])) # put headers on
-df <- df[-1,] # remove first row
-row.names(df)<-NULL
-pander(df, style = 'rmarkdown')
-```
 
 *** 
 
@@ -132,11 +120,6 @@ You are expected to attend all lectures and discussions. Failure to do so may no
 
 *** 
 
-# Academic Integrity
-The official University of Illinois policy related to academic integrity can be found in Article 1, Part 4 of the Student Code. [Section 1-402](http://studentcode.illinois.edu/article1_part4_1-402.html) in particular outlines behavior which is considered an infraction of academic integrity. These sections of the Student Code will be upheld in this course. Any violations will be dealt with in a swift, fair and strict manner. Homework assignments are meant to be learning experiences. You may discuss the exercises with other students, but you must write up the solutions on your own. __In short, do not cheat, it is not worth the risk.__ You are more likely to get caught than you believe. If you think you may be operating in a grey area, you most likely are.
+# Disclaimer
 
-***
-
-# Changes
-
-The instructor reserves the right to make any changes he considers academically advisable. Such changes, if any, will be announced in class. Please note that it is your responsibility to attend the class and keep track of the proceedings.
+The instructors reserve the right to amend, adjust, or otherwise modify this course outline at any time during the course. The students will be notified in a timely fashion of any modification, by email or announcement in class. 
