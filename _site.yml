@@ -8,8 +8,8 @@ navbar:
       href: lecture.html
     - text: "Homework"
       href: homework.html
-    - text: "Project"
-      href: project.html      
+    - text: "Quiz Preparations"
+      href: quiz.html
     - text: "Syllabus"
       href: syllabus.html
   right:
