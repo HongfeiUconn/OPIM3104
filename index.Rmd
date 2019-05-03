@@ -22,24 +22,28 @@ This the official website of OPIM 3104, Spring 2018. Here is some basic info abo
 \vspace{1cm}
 
 * Lectures: (__Please go to your registered section!__)
-    * 
-    * 
+    * Decision Making Tools
+    * Forecasting
+    * Project Management
+    * Inventory Management
+    * Linear Programming
+    * Introduction to Monte Carlo Simulation
 
 \vspace{1cm}
 
 * TAs:
-    * 
-    * 
-    
+    * Aindrila Chakraborty: Aindrila.Chakraborty@uconn.edu Thu 3:30-4:30 pm
+    * Yucheng Chen: Yucheng.chen@uconn.edu Tue 3:30-4:30 pm
+
 \vspace{1cm}
 
 * Office hours:
-    * Wed/Thu 11AM - 12PM (116D Illini Hall)
-    * Tue 4-5PM (Runmin, 104 Illini Hall)
-    * Wed 1:45-2:45PM (Austin, 104 Illini Hall)
+    * Tue/Thu 12:30-1:30 pm (BUSN 407E)
 
 \vspace{1cm}
 
 ### Announcements:
+
+The announcement will keep updating during the whole semester.
 
 \vspace{1cm}
