@@ -22,3 +22,13 @@ alldates <- seq.Date(as.Date("2018-08-27"), length = totalweeks, by='1 weeks')
 
 ***
 Lecture 1: [**Decision Tool**](https://github.com/HongfeiUconn/Teaching/blob/master/Operations%20Management/Lecture%20Notes/Chapter%201.%20Decision.pdf){target='_blank'}
+
+Lecture 2: [**Forecasting**](https://github.com/HongfeiUconn/Teaching/blob/master/Operations%20Management/Lecture%20Notes/Chapter%201.%20Decision.pdf){target='_blank'}
+
+Lecture 3: [**Project Management**](https://github.com/HongfeiUconn/Teaching/blob/master/Operations%20Management/Lecture%20Notes/Chapter%201.%20Decision.pdf){target='_blank'}
+
+Lecture 4: [**Inventory Management**](https://github.com/HongfeiUconn/Teaching/blob/master/Operations%20Management/Lecture%20Notes/Chapter%201.%20Decision.pdf){target='_blank'}
+
+Lecture 5: [**Linear Programming**](https://github.com/HongfeiUconn/Teaching/blob/master/Operations%20Management/Lecture%20Notes/Chapter%201.%20Decision.pdf){target='_blank'}
+
+Lecture 6: [**Introduction to Monte Carlo Simulation**](https://github.com/HongfeiUconn/Teaching/blob/master/Operations%20Management/Lecture%20Notes/Chapter%201.%20Decision.pdf){target='_blank'}
