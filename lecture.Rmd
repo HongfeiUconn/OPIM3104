@@ -21,14 +21,17 @@ alldates <- seq.Date(as.Date("2018-08-27"), length = totalweeks, by='1 weeks')
 ```
 
 ***
-Chpater 1 Decision-making Tools: <a href="Decision-making Tools.pdf#" class="download" title="Download CV as PDF">Lecture Notes</a>
+Chpater 1 Decision-making Tools: <a href="Chapter1.pdf#" class="download" title="Decision-making Tools">Lecture Notes</a>
 
-Lecture 2: [**Forecasting**](https://github.com/HongfeiUconn/Teaching/blob/master/Operations%20Management/Lecture%20Notes/Chapter%201.%20Decision.pdf){target='_blank'}
+Chpater 2 Forecasting: <a href="Chapter2.pdf#" class="download" title="Forecasting">Lecture Notes</a>
 
-Lecture 3: [**Project Management**](https://github.com/HongfeiUconn/Teaching/blob/master/Operations%20Management/Lecture%20Notes/Chapter%201.%20Decision.pdf){target='_blank'}
+Chpater 3 Project Management: <a href="Chapter3.pdf#" class="download" title="Project Management">Lecture Notes</a>
 
-Lecture 4: [**Inventory Management**](https://github.com/HongfeiUconn/Teaching/blob/master/Operations%20Management/Lecture%20Notes/Chapter%201.%20Decision.pdf){target='_blank'}
+Chpater 4 Inventory Management: <a href="Chapter4.pdf#" class="download" title="Inventory Management">Lecture Notes</a>
 
-Lecture 5: [**Linear Programming**](https://github.com/HongfeiUconn/Teaching/blob/master/Operations%20Management/Lecture%20Notes/Chapter%201.%20Decision.pdf){target='_blank'}
+Chpater 5 Linear Programming: <a href="Chapter5.pdf#" class="download" title="Linear Programming">Lecture Notes</a>
 
-Lecture 6: [**Introduction to Monte Carlo Simulation**](https://github.com/HongfeiUconn/Teaching/blob/master/Operations%20Management/Lecture%20Notes/Chapter%201.%20Decision.pdf){target='_blank'}
+Chpater 6 Introduction to Monte Carlo Simulation: <a href="Chapter6.pdf#" class="download" title="Introduction to Monte Carlo Simulation">Lecture Notes</a>
+
+
+
