@@ -8,10 +8,8 @@ navbar:
       href: syllabus.html
     - text: "Lecture Notes"
       href: lecture.html
-    - text: "Homework"
+    - text: "Problem Sets"
       href: homework.html
-    - text: "Quiz Preparations"
-      href: quiz.html
 
   right:
     - icon: fa-github fa-lg
