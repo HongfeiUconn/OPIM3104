@@ -16,14 +16,14 @@ output:
 Homework is not mandatory but it is highly recommended to finish all the problem sets. Questions in these problem sets are similar to questions in your quizzes and exams. Good luck!
 
 ***
-Decision Tool: [**Problem Set 1**](https://github.com/HongfeiUconn/Teaching/blob/master/Operations%20Management/Lecture%20Notes/Chapter%201.%20Decision.pdf){target='_blank'}
+Chpater 1 Decision-making Tools: <a href="ProblemSet1.pdf#" class="download" title="Decision-making Tools">Problem Set 1</a>
 
-Forecasting: [**Problem Set 2**](https://github.com/HongfeiUconn/Teaching/blob/master/Operations%20Management/Lecture%20Notes/Chapter%201.%20Decision.pdf){target='_blank'}
+Chpater 2 Forecasting: <a href="ProblemSet2.pdf#" class="download" title="Forecasting">Problem Set 2</a>
 
-Project Management: [**Problem Set 3**](https://github.com/HongfeiUconn/Teaching/blob/master/Operations%20Management/Lecture%20Notes/Chapter%201.%20Decision.pdf){target='_blank'}
+Chpater 3 Project Management: <a href="ProblemSet3.pdf#" class="download" title="Project Management">Problem Set 3</a>
 
-Inventory Management: [**Problem Set 4**](https://github.com/HongfeiUconn/Teaching/blob/master/Operations%20Management/Lecture%20Notes/Chapter%201.%20Decision.pdf){target='_blank'}
+Chpater 4 Inventory Management: <a href="ProblemSet4.pdf#" class="download" title="Inventory Management">Problem Set 4</a>
 
-Linear Programming: [**Problem Set 5**](https://github.com/HongfeiUconn/Teaching/blob/master/Operations%20Management/Lecture%20Notes/Chapter%201.%20Decision.pdf){target='_blank'}
+Chpater 5 Linear Programming: <a href="ProblemSet5.pdf#" class="download" title="Linear Programming">Problem Set 5</a>
 
-Monte Carlo Simulation: [**Problem Set 6**](https://github.com/HongfeiUconn/Teaching/blob/master/Operations%20Management/Lecture%20Notes/Chapter%201.%20Decision.pdf){target='_blank'}
+Chpater 6 Introduction to Monte Carlo Simulation: <a href="ProblemSet6.pdf#" class="download" title="Introduction to Monte Carlo Simulation">Problem Set 6</a>
